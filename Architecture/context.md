@@ -12,7 +12,7 @@ System(logger, "Агент логирования")
 System_Ext(PM, "Сервиc Process Mining")
 
 Rel(user, logger, "Использование рабочего компьютера")
-Rel(logger, admin, "Получение статитики по работе сотрудников")
+Rel(admin, logger, "Получение статитики по работе сотрудников")
 Rel(logger, PM, "Формирование лога для аналитики процессов")
 
 @enduml
